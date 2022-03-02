@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "DSKhaiBaoNhanKhau";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using DOANTOTNGHIEP.Models
+@model List<khaibaonhankhau>
+<br />
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <a href="@Url.Action("KhaiBaoNhanKhau","Home")" class="btn btn-primary" hidden="@ViewBag.SLKBNK" >THÊM KHAI BÁO NHÂN KHẨU</a>
+        <br />
+        <br />
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<p style="color:red; text-align:center">@ViewBag.Thongbao</p>
+<br />
+<br />
+<h2 style="text-align:center">DANH SACH KHAI BÁO NHÂN KHẨU</h2>
+<div class="container-fluid">
+    <p class="item-group"></p>
+    <div class="row text-center">
+        @foreach (var a in Model)
+        {
+                
+                <div class="col-md-4 border-gray bg-light">
+                    <a class="div-image" href="@Url.Action("ChiTietKhaiBaoNhanKhau", "Home", new { ma = @a.MA})"><img class="item-image" height="300px" width="200px" src="../Hinh/@a.HINHTHE" /></a>
+                    <h4 class="gia" style="color:red">@a.HOTEN</h4>
+                    <p>@a.NGAYSINH.ToShortDateString()</p>
+                    <p> @a.GIOITINH</p>
+                    @Html.ActionLink("Sửa", "SuaToKhaiNhanKhau", null, new { id = @a.MA }, new { @class = "btn btn-primary" })
+
+                    <br />
+                    <br />
+                </div>
+        }
+    </div>
+</div>
+<hr />

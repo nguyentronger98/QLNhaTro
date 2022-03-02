@@ -1,0 +1,1024 @@
+﻿@{
+    ViewBag.Title = "KhaiBaoNhanKhau";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "KhaiBaoNhanKhau";
+
+}
+@model DOANTOTNGHIEP.Models.Address
+@using (Html.BeginForm("KhaiBaoNhanKhau", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    <form class="needs-validation">
+        <div class="row" style="padding: 15px">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <br />
+                <br />
+                <br />
+                <h1 style="text-align: center">KHAI BÁO NHÂN KHẨU</h1>
+                <br />
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6" style="text-align: center">
+                        <a style="text-align: center" href="@Url.Action("HuongDanKhaiBaoNhanKhau", "Home")">Xem hướng dẫn khai báo nhân khẩu</a>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Chọn ảnh 3x4 <em>(*)</em></h5>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="file" name="fileUp" onchange="readURL(this)" />
+                            <img id="blah" src="../Hinh/image_50px.png" alt="your image" class="form-control" required>
+                            @ViewBag.ThongBao
+                        </div>
+                    </div>
+                    @*<input class="btn btn-primary" name="file" id="file" type='file' onchange="readURL(this)" />
+                        <img id="blah" src="../Hinh/image_50px.png" alt="your image" />*@
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Chọn ảnh CMND(mặt trước) <em>(*)</em></h5>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="file" name="fileUpCMNDTruoc" onchange="readURL(this)" required>
+                            @ViewBag.ThongBao
+                        </div>
+                    </div>
+                    @*<input class="btn btn-primary" name="file" id="file" type='file' onchange="readURL(this)" />
+                        <img id="blah" src="../Hinh/image_50px.png" alt="your image" />*@
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Chọn ảnh CMND(mặt sau) <em>(*)</em></h5>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="file" name="fileUpCMNDSau" onchange="readURL(this)" required>
+                            @ViewBag.ThongBao
+                        </div>
+                    </div>
+                    @*<input class="btn btn-primary" name="file" id="file" type='file' onchange="readURL(this)" />
+                        <img id="blah" src="../Hinh/image_50px.png" alt="your image" />*@
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>1. Họ và tên (ghi chữ IN HOA) <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="hoten" placeholder="Nhập họ và tên" name="uname" required>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>2. Họ và tên gọi khác (nếu có): </h5>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="hotenkhac" placeholder="Nhập họ và tên gọi khác" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>3. Ngày, tháng, năm sinh <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="date" class="form-control" name="ngaysinh" name="ngaysinh" required>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>4. Giới tính <em style="color: red">(*)</em></h5>
+                    </div>
+                    <div class="col-md-2">
+                        @*@<input type="text" class="form-control" name="gioitinh" placeholder="Nhập giới tính" name="uname" required>*@
+                        <select class="form-control" name="gioitinh">
+                            <option>Chọn giới tính</option>
+                            <option selected="selected">Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                        @*@Html.DropDownList("MATINH", (IEnumerable<SelectListItem>)ViewBag.MATINH, "-- Select Status --", new { @class = "form-control" })*@
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>5. Nơi sinh <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-5">
+
+                        <select class="form-control" name="nstinh" id="calc_shipping_provinces" required>
+                            <option value="">Tỉnh / Thành phố</option>
+                        </select>
+                            <input class="billing_address_1" name="" type="hidden" value="">
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-control" name="nshuyen" id="calc_shipping_district" required>
+                            <option value="">Quận / Huyện</option>
+                        </select>
+                        <input class="billing_address_2" name="" type="hidden" value="">
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>6. Nguyên quán <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-5">
+                        <select class="form-control" name="nqtinh" id="calc_shipping_provinces_3" required="">
+                            <option value="">Tỉnh / Thành phố</option>
+                        </select>
+                        <input class="billing_address_3" name="" type="hidden" value="">
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-control" name="nqhuyen" id="calc_shipping_district_4" required="">
+                            <option value="">Quận / Huyện</option>
+                        </select>
+                        <input class="billing_address_4" name="" type="hidden" value="">
+                    </div>
+                    
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>7. Dân tộc <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-2">
+                        @*<input type="text" class="form-control" name="dantoc" placeholder="Nhập dân tộc" name="uname" required>*@
+                        <select class="form-control" name="dantoc">
+                            <option selected="selected">Kinh</option>
+                            <option>Tài</option>
+                            <option>Thái</option>
+                            <option>Mường</option>
+                            <option>Khmer</option>
+                            <option>Hoa</option>
+                            <option>Nùng</option>
+                            <option>H'Mông</option>
+                            <option>Dao</option>
+                            <option>Gia Rai</option>
+                            <option>Ê Đê</option>
+                            <option>Ba Na</option>
+                            <option>Sáng Chay</option>
+                            <option>Chăm</option>
+                            <option>Cơ Ho</option>
+                            <option>Sơ Đăng</option>
+                            <option>Sán Dìu</option>
+                            <option>Hrê</option>
+                            <option>Gia Glai</option>
+                            <option>Mnông</option>
+                            <option>Thổ</option>
+                            <option>Stiêng</option>
+                            <option>Khơ mú</option>
+                            <option>Bru - Vân Kiều</option>
+                            <option>Cơ Tu</option>
+                            <option>Giáy</option>
+                            <option>Tà Ôi</option>
+                            <option>Mạ</option>
+                            <option>Giẻ-Triêng</option>
+                            <option>Co</option>
+                            <option>Chơ Ro</option>
+                            <option>Xinh Mun</option>
+                            <option>Hà Nhì</option>
+                            <option>Chu Ru</option>
+                            <option>Lào</option>
+                            <option>La Chí</option>
+                            <option>Kháng</option>
+                            <option>Phù Lá</option>
+                            <option>La Hủ</option>
+                            <option>La Ha</option>
+                            <option>Pà Thẻn</option>
+                            <option>Lự</option>
+                            <option>Ngái</option>
+                            <option>Chứt</option>
+                            <option>Lô Lô</option>
+                            <option>Mảng</option>
+                            <option>Cơ Lao</option>
+                            <option>Bố Y</option>
+                            <option>Cống</option>
+                            <option>Si La</option>
+                            <option>Pu Péo</option>
+                            <option>Rơ Măm</option>
+                            <option>Brâu</option>
+                            <option>Ơ Đu</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>8. Tôn giáo <em style="color: red">(*)</em></h5>
+                    </div>
+                    <div class="col-md-2">
+                        @*<input type="text" class="form-control" name="tongiao" placeholder="Nhập tôn giáo" name="uname" required>*@
+                        <select class="form-control" name="tongiao">
+                            <option selected="selected">Không</option>
+                            <option>Công Giáo</option>
+                            <option>Phật Giáo</option>
+                            <option>Hòa Hảo</option>
+                            <option>Tin Lành</option>
+                            <option>Cao Đài</option>
+                            <option>Hồi Giáo</option>
+                            <option>Bà La Môn</option>
+                            <option>Đạo Tứ ấn hiếu nghĩa</option>
+                            <option>Cơ đốc Phục Lâm</option>
+                            <option>Mormon</option>
+                            <option>Bửu sơn Kỳ Hương</option>
+                            <option>Tịnh độ cư sĩ Phật hội Việt Nam</option>
+                            <option>Bahá'í</option>
+                            <option>Hiếu Nghĩa Tà Lơn</option>
+                            <option>Minh Sự Đạo</option>
+                            <option>Minh Lý Đạo</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1">
+                        <h5>9. Quốc tịch <em style="color: red">(*)</em></h5>
+                    </div>
+                    <div class="col-md-2">
+                        @*<input type="text" class="form-control" name="quoctich" placeholder="Nhập Quốc tịch" name="uname" required>*@
+                        <select class="form-control" name="quoctich">
+                            <option>Ma Cao (Trung Quốc)</option>
+                            <option>HongKong (Trung Quốc)</option>
+                            <option>Ả Rập Xê Úc</option>
+                            <option>Afghanistan</option>
+                            <option>Ai Cập</option>
+                            <option>Albania</option>
+                            <option>Algeria</option>
+                            <option>Ấn Độ</option>
+                            <option>Andorra</option>
+                            <option>Angola</option>
+                            <option>Anh</option>
+                            <option>Antigua và Barbuda</option>
+                            <option>Áo</option>
+                            <option>Argentina</option>
+                            <option>Amenia</option>
+                            <option>Azerbaijan</option>
+                            <option>Ba Lan</option>
+                            <option>Bắc Macedonia</option>
+                            <option>Bahamas</option>
+                            <option>Bahrain</option>
+                            <option>Bangladesh</option>
+                            <option>Barbados</option>
+                            <option>Belarus</option>
+                            <option>Belize</option>
+                            <option>Bénin</option>
+                            <option>Bhutan</option>
+                            <option>Bỉ</option>
+                            <option>Bờ Biển Ngà</option>
+                            <option>Bồ Đào Nha</option>
+                            <option>Bolivia</option>
+                            <option>Bosnia và Herzegovina</option>
+                            <option>Botswana</option>
+                            <option>Brazil</option>
+                            <option>Brunei</option>
+                            <option>Bulgaria</option>
+                            <option>Burkina Faso</option>
+                            <option>Burundi</option>
+                            <option>Các Tiểu Vương Quốc Ả Rập Thống Nhất</option>
+                            <option>Cameroon</option>
+                            <option>Canada</option>
+                            <option>Cape</option>
+                            <option>Verde</option>
+                            <option>Chad</option>
+                            <option>Chile</option>
+                            <option>Colombia</option>
+                            <option>Comoros</option>
+                            <option>Cộng hòa dân chủ Congo</option>
+                            <option>Cộng hòa Dominican</option>
+                            <option>Cộng hòa Séc</option>
+                            <option>Cộng hòa Trung Phi</option>
+                            <option>Costa Rica</option>
+                            <option>Croatia</option>
+                            <option>Cuba</option>
+                            <option>Djibouti</option>
+                            <option>Dominica</option>
+                            <option>Đài Loan (Trung Quốc)</option>
+                            <option>Đan Mạch</option>
+                            <option>Đông Timor</option>
+                            <option>Đức</option>
+                            <option>Ecuador</option>
+                            <option>El Salvador</option>
+                            <option>Eritrea</option>
+                            <option>Estonia</option>
+                            <option>Ethiopia</option>
+                            <option>Fiji</option>
+                            <option>Gabon</option>
+                            <option>Gambia</option>
+                            <option>Georgia</option>
+                            <option>Ghana</option>
+                            <option>Grenada</option>
+                            <option>Guatemala</option>
+                            <option>Guinea</option>
+                            <option>Guinea Xích đạo</option>
+                            <option>Guinea-Bissau</option>
+                            <option>Guyana</option>
+                            <option>Hà Lan</option>
+                            <option>Haiti</option>
+                            <option>Hàn Quốc</option>
+                            <option>Hoa Kỳ</option>
+                            <option>Honduras</option>
+                            <option>Hungary</option>
+                            <option>Hy Lạp</option>
+                            <option>Iceland</option>
+                            <option>Indonesia</option>
+                            <option>Iran</option>
+                            <option>Iraq</option>
+                            <option>Ireland</option>
+                            <option>Israel</option>
+                            <option>Jamaica</option>
+                            <option>Jordan</option>
+                            <option>Kazakhstan</option>
+                            <option>Kenya</option>
+                            <option>Kiribati</option>
+                            <option>Kosovo</option>
+                            <option>Kuwait</option>
+                            <option>Kyrgyzstan</option>
+                            <option>Latvia</option>
+                            <option>Lesotho</option>
+                            <option>Liban</option>
+                            <option>Liberia</option>
+                            <option>Libya</option>
+                            <option>Liechtenstein</option>
+                            <option>Liên bang Micronesia</option>
+                            <option>Lithuania</option>
+                            <option>Luxembourg</option>
+                            <option>Ma-rốc</option>
+                            <option>Madagascar</option>
+                            <option>Malawi</option>
+                            <option>Malaysia</option>
+                            <option>Maldives</option>
+                            <option>Mali</option>
+                            <option>Malta</option>
+                            <option>Mauritania</option>
+                            <option>Mauritius</option>
+                            <option>Mexico</option>
+                            <option>Moldova</option>
+                            <option>Monaco</option>
+                            <option>Mông Cổ</option>
+                            <option>Montenegro</option>
+                            <option>Mozambique</option>
+                            <option>Myanmar</option>
+                            <option>Na Uy</option>
+                            <option>Nam Phi</option>
+                            <option>Nam Sudan</option>
+                            <option>Namibia</option>
+                            <option>Nauru</option>
+                            <option>Nepal</option>
+                            <option>New Zealand</option>
+                            <option>Nga</option>
+                            <option>Nhật Bản</option>
+                            <option>Nicaragua</option>
+                            <option>Niger</option>
+                            <option>Nigeria</option>
+                            <option>Oman</option>
+                            <option>Pakistan</option>
+                            <option>Palau</option>
+                            <option>Palestine</option>
+                            <option>Panama</option>
+                            <option>Papua New Guinea</option>
+                            <option>Paraguay</option>
+                            <option>Peru</option>
+                            <option>Phần Lan</option>
+                            <option>Pháp</option>
+                            <option>Philippines</option>
+                            <option>Qatar</option>
+                            <option>Quần đảo Marshall</option>
+                            <option>Quần đảo Solomon</option>
+                            <option>Romania</option>
+                            <option>Rwanda</option>
+                            <option>Saint Kitts và Nevis</option>
+                            <option>Saint Lucia</option>
+                            <option>Saint Vincent và Grenadines</option>
+                            <option>Samoa</option>
+                            <option>San Marino</option>
+                            <option>São Tomé và Príncipe</option>
+                            <option>Senegal</option>
+                            <option>Serbia</option>
+                            <option>Seychelles</option>
+                            <option>Sierra Leone</option>
+                            <option>Singapore</option>
+                            <option>Síp</option>
+                            <option>Slovakia</option>
+                            <option>Slovenia</option>
+                            <option>Somalia</option>
+                            <option>Sri Lanka</option>
+                            <option>Sudan</option>
+                            <option>Suriname</option>
+                            <option>Swaziland</option>
+                            <option>Syria</option>
+                            <option>Tajikistan</option>
+                            <option>Tanzania</option>
+                            <option>Tây Ban Nha</option>
+                            <option>Thái Lan</option>
+                            <option>Thành Vatican</option>
+                            <option>Thổ Nhĩ Kỳ</option>
+                            <option>Thụy Điển</option>
+                            <option>Thụy Sĩ</option>
+                            <option>Togo</option>
+                            <option>Tonga</option>
+                            <option>Triều Tiên</option>
+                            <option>Trinidad và Tobago</option>
+                            <option>Tunisia</option>
+                            <option>Turkmenistan</option>
+                            <option>Tuvalu</option>
+                            <option>Úc</option>
+                            <option>Uganda</option>
+                            <option>Ukraine</option>
+                            <option>Uruguay</option>
+                            <option>Uzbekistan</option>
+                            <option>Vanuatu</option>
+                            <option>Venezuela</option>
+                            <option>Ý</option>
+                            <option>Yemen</option>
+                            <option>Zambia</option>
+                            <option selected="selected">Việt Nam</option>
+                            <option>Trung Quốc</option>
+                            <option>Lào</option>
+                            <option>Campuchia</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>10. CMND số <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" name="cmnd" placeholder="Nhập số CMND" required>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>11. Hộ chiếu số:</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" name="hochieu" placeholder="Nhập hộ chiếu số" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>12. Nơi thường trú <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="noithuongtru" placeholder="Nhập nơi thường trú .." required>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>13. Địa chỉ chỗ ở hiện nay <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="diachihientai" placeholder="Nhập địa chỉ chỗ ở hiện nay" required>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>14. Trình độ học vấn: </h5>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="hocvan" placeholder="Nhập trình độ học vấn" />
+                    </div>
+                    <div class="col-md-3">
+                        <h5>15. Trình độ chuyên môn:</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="chuyenmon" placeholder="Nhập trình độ chuyên môn" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>16. Biết tiếng dân tộc: </h5>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="tiengdantoc" placeholder="Nhập biết tiếng dân tộc" />
+                    </div>
+                    <div class="col-md-3">
+                        <h5>17. Trình độ ngoại ngữ:</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="ngoaingu" placeholder="Nhập trình độ ngoại ngữ" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>18. Nghề nghiệp, nơi làm việc <em style="color: red">(*)</em> </h5>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="nghenghiepnoilamviec" placeholder="Nhập nghề nghiệp và nơi làm việc" required>
+                    </div>
+                </div>
+                <br />
+                <h5>19. Tóm tắt về bản thân (Từ đủ 14 tuổi trở lên đến nay ở đâu, làm gì):</h5>
+                <br />
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Từ tháng năm đến tháng năm</th>
+                            <th scope="col">Chỗ ở (Ghi rõ số nhà, đường phố, thôn, xóm, làng, ấp, bản, buôn, phum, sóc; xã/phường/trị trấn; quận/huyện; tỉnh/thành phốn (Nếu ở nước ngoài ghi rõ tên nước)</th>
+                            <th scope="col">Nghề nghiệp, nơi làm việc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>
+                                <input type="text" class="form-control" name="ngaydenngay1" placeholder="Nhập tháng ngày đến tháng ngày" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachi1" placeholder="Nhập chỗ ở" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nnnlv1" placeholder="Nhập nghề nghiệp và nơi làm việc" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>
+                                <input type="text" class="form-control" name="ngaydenngay2" placeholder="Nhập tháng ngày đến tháng ngày" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachi2" placeholder="Nhập chỗ ở" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nnnlv2" placeholder="Nhập nghề nghiệp và nơi làm việc" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>
+                                <input type="text" class="form-control" name="ngaydenngay3" placeholder="Nhập tháng ngày đến tháng ngày" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachi3" placeholder="Nhập chỗ ở" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nnnlv3" placeholder="Nhập nghề nghiệp và nơi làm việc" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>
+                                <input type="text" class="form-control" name="ngaydenngay4" placeholder="Nhập tháng ngày đến tháng ngày" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachi4" placeholder="Nhập chỗ ở" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nnnlv4" placeholder="Nhập nghề nghiệp và nơi làm việc" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>
+                                <input type="text" class="form-control" name="ngaydenngay5" placeholder="Nhập tháng ngày đến tháng ngày" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachi5" placeholder="Nhập chỗ ở" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nnnlv5" placeholder="Nhập nghề nghiệp và nơi làm việc" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>20. Tiền án (Tội danh, hình phạt, theo bản án số, ngày, tháng, năm của Tòa án): </h5>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="tienan" placeholder="Nhập Tiền án" />
+                    </div>
+                </div>
+                <br />
+                <h5>21. Tóm tắt về gia đình (Bố, mẹ; vợ/chồng; con; anh, chị, em ruột):</h5>
+                <br />
+                <table class="table">
+                    <thead class="thead">
+                        <tr>
+                            <th >TT</th>
+                            <th >Họ Tên</th>
+                            <th >Ngày, tháng, năm sinh</th>
+                            <th >Giới tính</th>
+                            <th >Quan hệ</th>
+                            <th >Nghề nghiệp</th>
+                            <th >Địa chỉ chỗ ở hiện nay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd1" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd1" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd1" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd1" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd1" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd1" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd2" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd2" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd2" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd2" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd2" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd2" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd3" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd3" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd3" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd3" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd3" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd3" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd4" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd4" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd4" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd4" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd4" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd4" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd5" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd5" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd5" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd5" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd5" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd5" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>
+                                <input type="text" class="form-control" name="hotengd6" placeholder="Họ và tên" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="ngaysinhgd6" placeholder="ngày,tháng,năm sinh" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="gioitinhgd6" placeholder="Giới tính" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="quanhegd6" placeholder="Quan hệ" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="nghenghiepgd6" placeholder="Nghề nghiệp" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" name="diachigd6" placeholder="Địa chỉ" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember" required>
+                                <p style="color: black">Tôi cam đoan những lời khai trên đây là đúng sự thật và chịu trách nhiệm trước pháp luật về cam đoan của mình.</p>
+                                <div class="valid-feedback">Hợp lệ.</div>
+                                <div class="invalid-feedback">Nhấn vào đồng đý đăng ký để tiếp tục.</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8" style="text-align: center">
+                        <div class="form-group form-check">
+                            <button id="button" type="submit" class="btn btn-primary" style="font-size: large">Đăng ký</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </form>
+}
+<script src='https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js'></script>
+<script>
+    // Disable form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+    var sel = document.getElementById('sel'),
+    button = document.getElementById('button');
+
+    button.addEventListener('click', function (e) {
+        sel.options[1].selected = true;
+
+        // firing the event properly according to StackOverflow
+        // http://stackoverflow.com/questions/2856513/how-can-i-trigger-an-onchange-event-manually
+        if ("createEvent" in document) {
+            var evt = document.createEvent("HTMLEvents");
+            evt.initEvent("change", false, true);
+            sel.dispatchEvent(evt);
+        }
+        else {
+            sel.fireEvent("onchange");
+        }
+    });
+
+    sel.addEventListener('change', function (e) {
+        alert('changed');
+    });
+</script>
+<style>
+    article, aside, figure, footer, header, hgroup,
+    menu, nav, section {
+        display: block;
+    }
+</style>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(200)
+                    .height(250);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $(document).ready(function () {
+        $("#id_tinh").change(function () {
+            var idtinh = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Home/GetHuyen?id_tinh=" + idtinh,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#id_huyen").empty();
+                    $("#id_huyen").append(response);
+                }
+            })
+        })
+        $("#id_huyen").change(function () {
+            var idhuyen = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Home/GetXa?id_huyen=" + idhuyen,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#id_xa").empty();
+                    $("#id_xa").append(response);
+                }
+            })
+        })
+    })
+
+    //]]></script>
+<script src='https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js' ></script>
+    <script>
+        //<![CDATA[
+        if (address_2 = localStorage.getItem('address_2_saved')) {
+            $('select[id="calc_shipping_district"] option').each(function () {
+                if ($(this).text() == address_2) {
+                    $(this).attr('selected', '')
+                }
+            })
+            $('input.billing_address_2').attr('value', address_2)
+        }
+        if (district = localStorage.getItem('district')) {
+            $('select[id="calc_shipping_district"]').html(district)
+            $('select[id="calc_shipping_district"]').on('change', function () {
+                var target = $(this).children('option:selected')
+                target.attr('selected', '')
+                $('select[id="calc_shipping_district"] option').not(target).removeAttr('selected')
+                address_2 = target.text()
+                $('input.billing_address_2').attr('value', address_2)
+                district = $('select[id="calc_shipping_district"]').html()
+                localStorage.setItem('district', district)
+                localStorage.setItem('address_2_saved', address_2)
+            })
+        }
+        $('select[id="calc_shipping_provinces"]').each(function () {
+            var $this = $(this),
+              stc = ''
+            c.forEach(function (i, e) {
+                e += +1
+                stc += '<option >' + i + '</option>'
+                $this.html('<option value="">Tỉnh / Thành phố</option>' + stc)
+                if (address_1 = localStorage.getItem('address_1_saved')) {
+                    $('select[id="calc_shipping_provinces"] option').each(function () {
+                        if ($(this).text() == address_1) {
+                            $(this).attr('selected', '')
+                        }
+                    })
+                    $('input.billing_address_1').attr('value', address_1)
+                }
+                $this.on('change', function (i) {
+                    i = $this.children('option:selected').index() - 1
+                    var str = '',
+                      r = $this.val()
+                    if (r != '') {
+                        arr[i].forEach(function (el) {
+                            str += '<option value="' + el + '">' + el + '</option>'
+                            $('select[id="calc_shipping_district"]').html('<option value="">Quận / Huyện</option>' + str)
+                        })
+                        var address_1 = $this.children('option:selected').text()
+                        var district = $('select[id="calc_shipping_district"]').html()
+                        localStorage.setItem('address_1_saved', address_1)
+                        localStorage.setItem('district', district)
+                        $('select[id="calc_shipping_district"]').on('change', function () {
+                            var target = $(this).children('option:selected')
+                            target.attr('selected', '')
+                            $('select[id="calc_shipping_district"] option').not(target).removeAttr('selected')
+                            var address_2 = target.text()
+                            $('input.billing_address_2').attr('value', address_2)
+                            district = $('select[id="calc_shipping_district"]').html()
+                            localStorage.setItem('district', district)
+                            localStorage.setItem('address_2_saved', address_2)
+                        })
+                    } else {
+                        $('select[id="calc_shipping_district"]').html('<option value="">Quận / Huyện</option>')
+                        district = $('select[id="calc_shipping_district"]').html()
+                        localStorage.setItem('district', district)
+                        localStorage.removeItem('address_1_saved', address_1)
+                    }
+                })
+            })
+        })
+        //
+        if (address_2 = localStorage.getItem('address_2_saved')) {
+            $('select[id="calc_shipping_district_4"] option').each(function () {
+                if ($(this).text() == address_2) {
+                    $(this).attr('selected', '')
+                }
+            })
+            $('input.billing_address_4').attr('value', address_2)
+        }
+        if (district = localStorage.getItem('district')) {
+            $('select[id="calc_shipping_district_4"]').html(district)
+            $('select[id="calc_shipping_district-4"]').on('change', function () {
+                var target = $(this).children('option:selected')
+                target.attr('selected', '')
+                $('select[id="calc_shipping_district_3"] option').not(target).removeAttr('selected')
+                address_2 = target.text()
+                $('input.billing_address_4').attr('value', address_2)
+                district = $('select[id="calc_shipping_district_4"]').html()
+                localStorage.setItem('district', district)
+                localStorage.setItem('address_2_saved', address_2)
+            })
+        }
+        $('select[id="calc_shipping_provinces_3"]').each(function () {
+            var $this = $(this),
+              stc = ''
+            c.forEach(function (i, e) {
+                e += +1
+                stc += '<option >' + i + '</option>'
+                $this.html('<option value="">Tỉnh / Thành phố</option>' + stc)
+                if (address_1 = localStorage.getItem('address_1_saved')) {
+                    $('select[id="calc_shipping_provinces_3"] option').each(function () {
+                        if ($(this).text() == address_1) {
+                            $(this).attr('selected', '')
+                        }
+                    })
+                    $('input.billing_address_3').attr('value', address_1)
+                }
+                $this.on('change', function (i) {
+                    i = $this.children('option:selected').index() - 1
+                    var str = '',
+                      r = $this.val()
+                    if (r != '') {
+                        arr[i].forEach(function (el) {
+                            str += '<option value="' + el + '">' + el + '</option>'
+                            $('select[id="calc_shipping_district_4"]').html('<option value="">Quận / Huyện</option>' + str)
+                        })
+                        var address_1 = $this.children('option:selected').text()
+                        var district = $('select[id="calc_shipping_district_4"]').html()
+                        localStorage.setItem('address_1_saved', address_1)
+                        localStorage.setItem('district', district)
+                        $('select[id="calc_shipping_district_4"]').on('change', function () {
+                            var target = $(this).children('option:selected')
+                            target.attr('selected', '')
+                            $('select[id="calc_shipping_district_4"] option').not(target).removeAttr('selected')
+                            var address_2 = target.text()
+                            $('input.billing_address_4').attr('value', address_2)
+                            district = $('select[id="calc_shipping_district_4"]').html()
+                            localStorage.setItem('district', district)
+                            localStorage.setItem('address_2_saved', address_2)
+                        })
+                    } else {
+                        $('select[id="calc_shipping_district_4"]').html('<option value="">Quận / Huyện</option>')
+                        district = $('select[id="calc_shipping_district_4"]').html()
+                        localStorage.setItem('district', district)
+                        localStorage.removeItem('address_1_saved', address_1)
+                    }
+                })
+            })
+        })
+        //]]></script>

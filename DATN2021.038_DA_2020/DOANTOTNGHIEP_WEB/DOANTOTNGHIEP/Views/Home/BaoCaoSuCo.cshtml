@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "BaoCaoSuCo";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+<h2 style="text-align: center; font: bold">BÁO CÁO SỰ CỐ</h2>
+<br />
+<br />
+@using (Html.BeginForm("BaoCaoSuCo", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    <form class="needs-validation">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <h6>TIÊU ĐỀ BÁO CÁO</h6>
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" type="text" name="tieude" required>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <h6>NỘI DUNG BÁO CÁO</h6>
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" type="text" name="noidung" required>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-2">
+                <button id="button" type="submit" class="btn btn-primary" style="font-size: large">GỬI</button>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </form>
+}

@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="~/Content/main.js"></script>
+    <link href="~/Content/themes/StylesMain.css" rel="stylesheet" />
+    <link href="~/Content/StylesTable.css" rel="stylesheet" />
+    <!------ Include the above in your HEAD tag ---------->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+<body>
+
+    @RenderBody()
+    <script src='https://cdn.jsdelivr.net/gh/vietblogdao/js/districts.min.js' ></script>
+    <script>
+//<![CDATA[
+if (address_2 = localStorage.getItem('address_2_saved')) {
+  $('select[name="calc_shipping_district"] option').each(function() {
+    if ($(this).text() == address_2) {
+      $(this).attr('selected', '')
+    }
+  })
+  $('input.billing_address_2').attr('value', address_2)
+}
+if (district = localStorage.getItem('district')) {
+  $('select[name="calc_shipping_district"]').html(district)
+  $('select[name="calc_shipping_district"]').on('change', function() {
+    var target = $(this).children('option:selected')
+    target.attr('selected', '')
+    $('select[name="calc_shipping_district"] option').not(target).removeAttr('selected')
+    address_2 = target.text()
+    $('input.billing_address_2').attr('value', address_2)
+    district = $('select[name="calc_shipping_district"]').html()
+    localStorage.setItem('district', district)
+    localStorage.setItem('address_2_saved', address_2)
+  })
+}
+$('select[name="calc_shipping_provinces"]').each(function() {
+  var $this = $(this),
+    stc = ''
+  c.forEach(function(i, e) {
+    e += +1
+    stc += '<option value=' + e + '>' + i + '</option>'
+    $this.html('<option value="">Tỉnh / Thành phố</option>' + stc)
+    if (address_1 = localStorage.getItem('address_1_saved')) {
+      $('select[name="calc_shipping_provinces"] option').each(function() {
+        if ($(this).text() == address_1) {
+          $(this).attr('selected', '')
+        }
+      })
+      $('input.billing_address_1').attr('value', address_1)
+    }
+    $this.on('change', function(i) {
+      i = $this.children('option:selected').index() - 1
+      var str = '',
+        r = $this.val()
+      if (r != '') {
+        arr[i].forEach(function(el) {
+          str += '<option value="' + el + '">' + el + '</option>'
+          $('select[name="calc_shipping_district"]').html('<option value="">Quận / Huyện</option>' + str)
+        })
+        var address_1 = $this.children('option:selected').text()
+        var district = $('select[name="calc_shipping_district"]').html()
+        localStorage.setItem('address_1_saved', address_1)
+        localStorage.setItem('district', district)
+        $('select[name="calc_shipping_district"]').on('change', function() {
+          var target = $(this).children('option:selected')
+          target.attr('selected', '')
+          $('select[name="calc_shipping_district"] option').not(target).removeAttr('selected')
+          var address_2 = target.text()
+          $('input.billing_address_2').attr('value', address_2)
+          district = $('select[name="calc_shipping_district"]').html()
+          localStorage.setItem('district', district)
+          localStorage.setItem('address_2_saved', address_2)
+        })
+      } else {
+        $('select[name="calc_shipping_district"]').html('<option value="">Quận / Huyện</option>')
+        district = $('select[name="calc_shipping_district"]').html()
+        localStorage.setItem('district', district)
+        localStorage.removeItem('address_1_saved', address_1)
+      }
+    })
+  })
+})
+//]]></script>
+    <!-- Modal -->
+    @*<header>
+        <div class="container-fluid p-0">
+
+            <nav class="navbar navbar-expand-lg">
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        ĐĂNG KÝ NGAY
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12  text-white">
+                    <h1>TÊN NHÀ TRỌ</h1>
+                    <p>
+                        140 Lê Trọng Tấn, phường Tây Thạnh, quận Tân Phú,Tp.HCM
+
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        ĐĂNG KÝ NGAY
+                    </button>*@
+    @*</div>
+        @*<div class="col-md-5 col-sm-12  h-25">
+                <img src="../Hinh/anh2.jpg" alt="Book" />
+            @*</div>*@
+    @*</div>
+        </div>
+        </header>*@*@*@
+        @*<main>
+                <section class="section-1">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                          <div class="col-md-6 col-12">
+                        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                            <div class="carousel-inner text-center">
+                              <div class="carousel-item active">
+                                <div class="card mr-2 d-inline-block shadow">
+                                  <div class="card-img-top">
+                                    <img src="../Hinh/anh1.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="card-title">Dãy Trọ A</h3>
+                                    <p class="card-text" style="font:bold">
+                                      NHÀ TRỌ DẠNG CHUNG CƯ MINI 30 PHÒNG GIỜ GIẤC HOÀN TOÀN TỰ DO - KHÔNG CHUNG CHỦ - CÓ SẴN NỘI THẤT - CÓ GÁC - MỚI 100%. Địa chỉ : 142 Thoại Ngọc Hầu, P. Phú Thạnh (36-38 Đường B, Khu biệt thự ADC)
+                                    </p>
+                                    <a href="#" class="btn btn-primary" style="color:white;font:bold;font-size:14px">XEM THÊM</a>
+                                    <p class="text-black-50">Địa chỉ : 142 Thoại Ngọc Hầu, P. Phú Thạnh (36-38 Đường B, Khu biệt thự ADC)</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="card  d-inline-block mr-2 shadow">
+                                  <div class="card-img-top">
+                                    <img src="../Hinh/anh2.jpg" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                  </div>
+                                  <div class="card-body">
+                                    <h3 class="card-title">Dãy Trọ B</h3>
+                                    <p class="card-text" style="font:bold">
+                                      Nhà trọ gần khu công nghiệp Tân Bình. Cách Trường Chinh, Cộng Hòa 1,5km, cách Lê Trọng Tấn 500mThuận tiện đi lại giữa các quận Tân Bình , Gò Vấp, Quận 12, Bình Tân, Hóc Môn ... Phòng rộng từ 17m2 + Gác 10m2 ( Gác cao, đứng không chạm đầu)
+
+            Có WC khép kín, riêng biệt từng phòng
+
+            Kệp bếp mặt đá di động tiện sắp xếp
+
+            Xung quanh phòng được ốp gạch men , rất sạch sẽ và thoáng mát.
+
+            Hệ thống Wifi cáp quang chuẩn 40M đến từng ngóc ngách của tòa nhà
+
+            Thời gian đi lại thoải mái, , không chung chủ, tự do tiếp bạn bè. người thân.
+
+            TIỆN ÍCH:
+
+            Trong khu dân cư tri thức, nên rất yên tĩnh. Đường ra vào rộng rãi, thuận tiện đi lại, Ô tô tải vào tận cửa.
+
+            Gần chợ , trường học, siêu thị, trung tâm thương mại....
+
+            AN NINH:
+
+            Có chỗ để xe ngay trong nhà Với hệ thống Camera quan sát.
+
+            Có bảo vệ luôn trông coi 24/7
+
+            Hệ thống PCCC đạt tiêu chuẩn.
+                                    </p>
+                                    <a href="#" class="btn btn-primary" style="color:white;font:bold;font-size:14px">XEM THÊM</a>
+                                    <p class="text-black-50">269/29 Tây Thạnh, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh.</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+
+                    </div>
+                        <div class="col-md-3"></div>
+                        </div>
+
+                </section>
+                <section class="section-2 container-fluid p-0">
+                  <div class="purchase text-center">
+                    <h1>Những Dịch Vụ Có Ở Khu Trọ</h1>
+                    @*<p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>*@
+        @*<div class="cards">
+                  <div class="d-flex flex-row justify-content-center flex-wrap">
+                      <div class="card">
+                      <div class="card-body">
+                        <div class="title">
+                          <h5 class="card-title">Wifi Tốc Độ Cao</h5>
+                        </div>
+                        <p class="card-text">
+                          - Tốc độ wifi lên đến 100Mps/s
+                        </p>
+                          <p class="card-text">
+                          - Tốc độ wifi lên đến 100Mps/s
+                        </p>
+                          <p class="card-text">
+                          - Tốc độ wifi lên đến 100Mps/s
+                        </p>
+                          <p class="card-text">
+                          - Tốc độ wifi lên đến 100Mps/s
+                        </p>
+                          <p class="card-text">
+                          - Tốc độ wifi lên đến 100Mps/s
+                        </p>
+                        <div class="pricing">
+                          <img src="../Hinh/anh2.jpg" style="max-width:100%" />
+                        </div>
+                      </div>
+                    </div>
+                      <div class="card">
+                      <div class="card-body">
+                        <div class="title">
+                          <h5 class="card-title">Hệ Thống Camera An Ninh</h5>
+                        </div>
+                        <p class="card-text">
+                            - Với hệ thống camera nhận diện khuôn mặt khi ra vào Và hệ thống giữ xe thông minh.
+                          </p>
+                          <p class="card-text">
+                            - Với hệ thống camera nhận diện khuôn mặt khi ra vào Và hệ thống giữ xe thông minh.
+                          </p>
+                          <p class="card-text">
+                            - Với hệ thống camera nhận diện khuôn mặt khi ra vào Và hệ thống giữ xe thông minh.
+                          </p>
+                          <p class="card-text">
+                            - Với hệ thống camera nhận diện khuôn mặt khi ra vào Và hệ thống giữ xe thông minh.
+                          </p>
+                        <div class="pricing">
+                          <img src="../Hinh/anh2.jpg" style="max-width:100%" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="title">
+                          <h5 class="card-title">Hệ thống thang máy hiện đại</h5>
+                        </div>
+                        <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                        <div class="pricing">
+                          <img src="../Hinh/anh2.jpg" style="max-width:100%" />
+                        </div>
+                      </div>
+
+                    </div>
+                      <div class="card">
+                      <div class="card-body">
+                        <div class="title">
+                          <h5 class="card-title">Hệ thống thang máy hiện đại</h5>
+                        </div>
+                        <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                          <p class="card-text">
+                          - Hệ thống thang máy qua các tầng được .....
+                        </p>
+                        <div class="pricing">
+                          <img src="../Hinh/anh2.jpg" style="max-width:100%" />
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </section>*@
+
+        <!-- Section 4 -->
+        @*<section class="section-4">*@
+        @*<div id="carouseExampleIndicators" class="carousel slide mt-1" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouseExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouseExampleIndicators" data-slide-to="1" ></li>
+                                <li data-target="#carouseExampleIndicators" data-slide-to="2" ></li>
+                            </ol>
+                            <div class="carousel-inner" style="border-radius:10px 10px">
+                                <div class="carousel-item active">
+                                    <img class ="d-block w-100" src="../Hinh/anh1.jpg" height="500px" alt="First slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class ="d-block w-100"  src="../Hinh/anh2.jpg" height="500px" alt="Second slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class ="d-block w-100"  src="../Hinh/anh1.jpg" height="500px" alt="Third slide" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouseExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouseExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+            </div>*@
+        @*</section>*@
+        @*</main>*@
+        @*<footer>
+                <div class="session-1">
+                    <div class="row text-left">
+                    </div>
+                </div>
+            </footer>
+            <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">NHẬP THÔNG TIN ĐĂNG KÝ</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                <input type="text" class="form-control" id="uname" placeholder="Nhập họ tên" name="uname" required></div>
+                            <br />
+                            <div>
+                                <input type="text" class="form-control" id="uname" placeholder="Nhập số điện thoại" name="uname" required></div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="uname" placeholder="Nhập mã xác nhận" name="uname" required></div>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-success">Lấy mã</button></div>
+                            </div>
+                        </div>
+                        <div class="modal-footer row">
+                            <div class="col-md-4">
+
+                            </div>
+                            <div class="col-md-4">
+
+                                <button type="button " class="btn btn-primary">Đăng Ký</button>
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>*@
+        <!-- /.modal -->
+        @* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+            <script src="~/Content/main.js"></script>*@
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

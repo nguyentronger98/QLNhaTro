@@ -1,0 +1,5 @@
+D:\DOANTOTNGHIEP\SpeedSMSAPI\bin\Debug\SpeedSMSAPI.dll
+D:\DOANTOTNGHIEP\SpeedSMSAPI\bin\Debug\SpeedSMSAPI.pdb
+D:\DOANTOTNGHIEP\SpeedSMSAPI\obj\Debug\SpeedSMSAPI.dll
+D:\DOANTOTNGHIEP\SpeedSMSAPI\obj\Debug\SpeedSMSAPI.pdb
+D:\DOANTOTNGHIEP\SpeedSMSAPI\obj\Debug\SpeedSMSAPI.csprojResolveAssemblyReference.cache

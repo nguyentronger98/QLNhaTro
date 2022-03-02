@@ -1,0 +1,702 @@
+﻿@{
+    ViewBag.Title = "SuaThayDoiNhanKhau";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using DOANTOTNGHIEP.Models
+@model thaydoinhankhau
+<form action="@Url.Action("SuaThayDoiNhanKhau", "Home")" class="needs-validation" novalidate method="post">
+    <div class="row" style="padding: 15px">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
+            <br />
+            <br />
+            <br />
+            <h1 style="text-align: center">PHIẾU BÁO THAY ĐỔI HỘ KHẨU, NHÂN KHẨU</h1>
+            <br />
+            <h4>I. Thông tin về người viết phiếu báo.</h4>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>1. Họ và tên(Ghi chư IN HOA)<em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="hotennv" value="@Model.HOTENNV" placeholder="Nhập họ và tên" id="hoten" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>2. Giới tính <em style="color: red">(*)</em></h5>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control" name="gioitinhnv" id="sel">
+                        @if (@Model.GIOITINHNV == "Nam")
+                            {
+                                <option selected="selected">Nam</option>
+                                <option>Nữ</option>
+                            }
+                            else if (@Model.GIOITINHNV == "Nữ")
+                            {
+                                <option>Nam</option>
+                                <option selected="selected">Nữ</option>
+                            }
+                            else
+                            {
+                                <option selected="selected">Nam</option>
+                                <option>Nữ</option>
+                            }
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>3. CMND số<em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" value="@Model.CMNDSONV" name="cmndnv" placeholder="Nhập số cmnd" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>4. Hộ chiếu:</h5>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" value="@Model.HOCHIEUNV" name="hochieunv" placeholder="Nhập hộ chiếu">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>5. Nơi thường trú<em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.NOITHUONGTRUNV" placeholder="Nhập nơi thường trú" name="noithuongtrunv" id="noithuongtru" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>6. Địa chỉ chỗ ở hiện tại<em style="color: red">(*)</em>  </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.DIACHIHTNV" name="diachihtnv" placeholder="Nhập địa chỉ hiện tại" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>7. Số điện thoại liên hệ<em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" name="sdtnv" value="@Model.SODTNV" placeholder="Nhập số điện thoại liên hệ" required>
+                </div>
+            </div>
+            <br />
+            <h4>II. Thông tin về người có thay đổi hộ khẩu, nhân khẩu.</h4>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>1. Họ và tên (ghi chữ IN HOA) <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" name="hotenntd" value="@Model.HOTENNTD" placeholder="Nhập họ và tên" id="hotenntd" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>2. Giới tính <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control" name="gioitinhntd" id="sel">
+                        <option value="">Chọn giới tính</option>
+                        @if (@Model.GIOITINHNV == "Nam")
+                            {
+                                <option selected="selected">Nam</option>
+                                <option>Nữ</option>
+                            }
+                            else if (@Model.GIOITINHNV == "Nữ")
+                            {
+                                <option>Nam</option>
+                                <option selected="selected">Nữ</option>
+                            }
+                            else
+                            {
+                                <option selected="selected">Nam</option>
+                                <option>Nữ</option>
+                            }
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>3. Ngày, tháng, năm sinh<em style="color: red">(*)</em>  </h5>
+                </div>
+                <div class="col-md-2">
+                    <input type="date" class="form-control" value="@Model.NGAYSINHNTD" name="ngaysinhntd" placeholder="Chọn ngày sinh" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>4. Dân tộc <em style="color: red">(*)</em></h5>
+                </div>
+                <div class="col-md-2">
+                    @*<input type="text" class="form-control" name="tongiao" placeholder="Nhập tôn giáo" name="uname" required>*@
+                    <select class="form-control" name="dantocntd" id="sel">
+                        <option>Chọn dân tộc</option>
+                        <option selected="selected">Kinh</option>
+                        <option>Tài</option>
+                        <option>Thái</option>
+                        <option>Mường</option>
+                        <option>Khmer</option>
+                        <option>Hoa</option>
+                        <option>Nùng</option>
+                        <option>H'Mông</option>
+                        <option>Dao</option>
+                        <option>Gia Rai</option>
+                        <option>Ê Đê</option>
+                        <option>Ba Na</option>
+                        <option>Sáng Chay</option>
+                        <option>Chăm</option>
+                        <option>Cơ Ho</option>
+                        <option>Sơ Đăng</option>
+                        <option>Sán Dìu</option>
+                        <option>Hrê</option>
+                        <option>Gia Glai</option>
+                        <option>Mnông</option>
+                        <option>Thổ</option>
+                        <option>Stiêng</option>
+                        <option>Khơ mú</option>
+                        <option>Bru - Vân Kiều</option>
+                        <option>Cơ Tu</option>
+                        <option>Giáy</option>
+                        <option>Tà Ôi</option>
+                        <option>Mạ</option>
+                        <option>Giẻ-Triêng</option>
+                        <option>Co</option>
+                        <option>Chơ Ro</option>
+                        <option>Xinh Mun</option>
+                        <option>Hà Nhì</option>
+                        <option>Chu Ru</option>
+                        <option>Lào</option>
+                        <option>La Chí</option>
+                        <option>Kháng</option>
+                        <option>Phù Lá</option>
+                        <option>La Hủ</option>
+                        <option>La Ha</option>
+                        <option>Pà Thẻn</option>
+                        <option>Lự</option>
+                        <option>Ngái</option>
+                        <option>Chứt</option>
+                        <option>Lô Lô</option>
+                        <option>Mảng</option>
+                        <option>Cơ Lao</option>
+                        <option>Bố Y</option>
+                        <option>Cống</option>
+                        <option>Si La</option>
+                        <option>Pu Péo</option>
+                        <option>Rơ Măm</option>
+                        <option>Brâu</option>
+                        <option>Ơ Đu</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <h5>5. Quốc tịch <em style="color: red">(*)</em></h5>
+                </div>
+                <div class="col-md-2">
+                    @*<input type="text" class="form-control" name="quoctich" placeholder="Nhập Quốc tịch" name="uname" required>*@
+                    <select class="form-control" name="quoctichntd" id="sel">
+                        <option>---Chọn quốc tịch---</option>
+                        <option>MA CAO (TRUNG QUỐC)</option>
+                        <option>HONGKONG (TRUNG QUỐC)</option>
+                        <option>Ả RẬP XÊ ÚT</option>
+                        <option>AFGHANISTAN</option>
+                        <option>AI CẬP</option>
+                        <option>ALBANIA</option>
+                        <option>ALGERIA</option>
+                        <option>ẤN ĐỘ</option>
+                        <option>ANDORRA</option>
+                        <option>ANGOLA</option>
+                        <option>Anh</option>
+                        <option>Antigua và Barbuda</option>
+                        <option>Áo</option>
+                        <option>Argentina</option>
+                        <option>Amenia</option>
+                        <option>Azerbaijan</option>
+                        <option>Ba Lan</option>
+                        <option>Bắc Macedonia</option>
+                        <option>Bahamas</option>
+                        <option>Bahrain</option>
+                        <option>Bangladesh</option>
+                        <option>Barbados</option>
+                        <option>Belarus</option>
+                        <option>Belize</option>
+                        <option>Bénin</option>
+                        <option>Bhutan</option>
+                        <option>Bỉ</option>
+                        <option>Bờ Biển Ngà</option>
+                        <option>Bồ Đào Nha</option>
+                        <option>Bolivia</option>
+                        <option>Bosnia và Herzegovina</option>
+                        <option>Botswana</option>
+                        <option>Brazil</option>
+                        <option>Brunei</option>
+                        <option>Bulgaria</option>
+                        <option>Burkina Faso</option>
+                        <option>Burundi</option>
+                        <option>Các Tiểu Vương Quốc Ả Rập Thống Nhất</option>
+                        <option>Cameroon</option>
+                        <option>Canada</option>
+                        <option>Cape</option>
+                        <option>Verde</option>
+                        <option>Chad</option>
+                        <option>Chile</option>
+                        <option>Colombia</option>
+                        <option>Comoros</option>
+                        <option>Cộng hòa dân chủ Congo</option>
+                        <option>Cộng hòa Dominican</option>
+                        <option>Cộng hòa Séc</option>
+                        <option>Cộng hòa Trung Phi</option>
+                        <option>Costa Rica</option>
+                        <option>Croatia</option>
+                        <option>Cuba</option>
+                        <option>Djibouti</option>
+                        <option>Dominica</option>
+                        <option>Đài Loan (Trung Quốc)</option>
+                        <option>Đan Mạch</option>
+                        <option>Đông Timor</option>
+                        <option>Đức</option>
+                        <option>Ecuador</option>
+                        <option>El Salvador</option>
+                        <option>Eritrea</option>
+                        <option>Estonia</option>
+                        <option>Ethiopia</option>
+                        <option>Fiji</option>
+                        <option>Gabon</option>
+                        <option>Gambia</option>
+                        <option>Georgia</option>
+                        <option>Ghana</option>
+                        <option>Grenada</option>
+                        <option>Guatemala</option>
+                        <option>Guinea</option>
+                        <option>Guinea Xích đạo</option>
+                        <option>Guinea-Bissau</option>
+                        <option>Guyana</option>
+                        <option>Hà Lan</option>
+                        <option>Haiti</option>
+                        <option>Hàn Quốc</option>
+                        <option>Hoa Kỳ</option>
+                        <option>Honduras</option>
+                        <option>Hungary</option>
+                        <option>Hy Lạp</option>
+                        <option>Iceland</option>
+                        <option>Indonesia</option>
+                        <option>Iran</option>
+                        <option>Iraq</option>
+                        <option>Ireland</option>
+                        <option>Israel</option>
+                        <option>Jamaica</option>
+                        <option>Jordan</option>
+                        <option>Kazakhstan</option>
+                        <option>Kenya</option>
+                        <option>Kiribati</option>
+                        <option>Kosovo</option>
+                        <option>Kuwait</option>
+                        <option>Kyrgyzstan</option>
+                        <option>Latvia</option>
+                        <option>Lesotho</option>
+                        <option>Liban</option>
+                        <option>Liberia</option>
+                        <option>Libya</option>
+                        <option>Liechtenstein</option>
+                        <option>Liên bang Micronesia</option>
+                        <option>Lithuania</option>
+                        <option>Luxembourg</option>
+                        <option>Ma-rốc</option>
+                        <option>Madagascar</option>
+                        <option>Malawi</option>
+                        <option>Malaysia</option>
+                        <option>Maldives</option>
+                        <option>Mali</option>
+                        <option>Malta</option>
+                        <option>Mauritania</option>
+                        <option>Mauritius</option>
+                        <option>Mexico</option>
+                        <option>Moldova</option>
+                        <option>Monaco</option>
+                        <option>Mông Cổ</option>
+                        <option>Montenegro</option>
+                        <option>Mozambique</option>
+                        <option>Myanmar</option>
+                        <option>Na Uy</option>
+                        <option>Nam Phi</option>
+                        <option>Nam Sudan</option>
+                        <option>Namibia</option>
+                        <option>Nauru</option>
+                        <option>Nepal</option>
+                        <option>New Zealand</option>
+                        <option>Nga</option>
+                        <option>Nhật Bản</option>
+                        <option>Nicaragua</option>
+                        <option>Niger</option>
+                        <option>Nigeria</option>
+                        <option>Oman</option>
+                        <option>Pakistan</option>
+                        <option>Palau</option>
+                        <option>Palestine</option>
+                        <option>Panama</option>
+                        <option>Papua New Guinea</option>
+                        <option>Paraguay</option>
+                        <option>Peru</option>
+                        <option>Phần Lan</option>
+                        <option>Pháp</option>
+                        <option>Philippines</option>
+                        <option>Qatar</option>
+                        <option>Quần đảo Marshall</option>
+                        <option>Quần đảo Solomon</option>
+                        <option>Romania</option>
+                        <option>Rwanda</option>
+                        <option>Saint Kitts và Nevis</option>
+                        <option>Saint Lucia</option>
+                        <option>Saint Vincent và Grenadines</option>
+                        <option>Samoa</option>
+                        <option>San Marino</option>
+                        <option>São Tomé và Príncipe</option>
+                        <option>Senegal</option>
+                        <option>Serbia</option>
+                        <option>Seychelles</option>
+                        <option>Sierra Leone</option>
+                        <option>Singapore</option>
+                        <option>Síp</option>
+                        <option>Slovakia</option>
+                        <option>Slovenia</option>
+                        <option>Somalia</option>
+                        <option>Sri Lanka</option>
+                        <option>Sudan</option>
+                        <option>Suriname</option>
+                        <option>Swaziland</option>
+                        <option>Syria</option>
+                        <option>Tajikistan</option>
+                        <option>Tanzania</option>
+                        <option>Tây Ban Nha</option>
+                        <option>Thái Lan</option>
+                        <option>Thành Vatican</option>
+                        <option>Thổ Nhĩ Kỳ</option>
+                        <option>Thụy Điển</option>
+                        <option>Thụy Sĩ</option>
+                        <option>Togo</option>
+                        <option>Tonga</option>
+                        <option>Triều Tiên</option>
+                        <option>Trinidad và Tobago</option>
+                        <option>Tunisia</option>
+                        <option>Turkmenistan</option>
+                        <option>Tuvalu</option>
+                        <option>Úc</option>
+                        <option>Uganda</option>
+                        <option>Ukraine</option>
+                        <option>Uruguay</option>
+                        <option>Uzbekistan</option>
+                        <option>Vanuatu</option>
+                        <option>Venezuela</option>
+                        <option>Ý</option>
+                        <option>Yemen</option>
+                        <option>Zambia</option>
+                        <option selected="selected">Việt Nam</option>
+                        <option>Trung Quốc</option>
+                        <option>Lào</option>
+                        <option>Campuchia</option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>6. CMND số <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" value="@Model.CMNDSONTD" name="cmndntd" placeholder="Nhập số cmnd" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>7. Hộ chiếu:</h5>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" value="@Model.HOCHIEUNTD" name="hochieuntd" placeholder="Nhập hộ chiếu">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>8. Nơi sinh <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value ="@Model.NOISINHNTD" placeholder="Nhập nơi sinh" name="noisinhntd" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>9. Nguyên quán <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.QUEQUANNTD" placeholder="Nhập nguyên quán" name="nguyenquanntd" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>10. Nghề nghiệp, nơi làm việc <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.NGHENGHIEPNLVNTD" placeholder="Nhập nghề nghiệp, nơi làm việc " name="nghenghiepnlvntd" id="noithuongtru" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>11. Nơi thường trú <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.NOITHUONGTRUNTD" placeholder="Nhập nơi thường trú" name="noithuongtruntd" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>12. Địa chỉ chỗ ở hiện tại <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.DIACHIHTNTD" placeholder="Nhập địa chỉ chỗ ở hiện tại" name="diachihtntd" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Số điện thoại liên hệ <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.SODTNTD" placeholder="Nhập số điện thoại liên hệ" name="sdtntd" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>13. Họ và tên chủ hộ <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" value="@Model.HOTENCHUHO" name="hotenchuho" placeholder="Nhập họ và tên chủ hộ" required>
+                </div>
+                <div class="col-md-2">
+                    <h5>14. Quan hệ với chủ hộ <em style="color: red">(*)</em></h5>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" value="@Model.QUANHECHUHO" name="quanhechuho" placeholder="Nhập quan hệ với chủ hộ" required>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>15. Nội dung thay đổi hộ khẩu, nhân khẩu <em style="color: red">(*)</em> </h5>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" value="@Model.NOIDUNGTHAYDOI" placeholder="Nhập nội dung thay đổi ..." name="noidung" required>
+                </div>
+            </div>
+            <br />
+            <h5>16. Những người cùng thay đổi:</h5>
+            <br />
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">TT</th>
+                        <th scope="col">Họ Tên</th>
+                        <th scope="col">Ngày, tháng, năm sinh</th>
+                        <th scope="col">Giới tính</th>
+                        <th scope="col">Nơi sinh</th>
+                        <th scope="col">Nghề nghiệp</th>
+                        <th scope="col">Dân tộc</th>
+                        <th scope="col">Quốc tịch</th>
+                        <th scope="col">CMND số (hoặc Hộ chiếu số)</th>
+                        <th scope="col">Quan hệ với người có thay đổi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.HOTENTD1" name="hotentd1" placeholder="Họ và tên" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.NGAYSINHTD1" name="ngaysinhtd1" placeholder="ngày,tháng,năm sinh" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.GIOITINHTD1" name="giotinhtd1" placeholder="Giới tính" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.NOISINHTD1" name="noisinhtd1" placeholder="Nơi sinh" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.NGHENGHIEPTD1" name="nghenghieptd1" placeholder="Nghề nghiệp" required>
+                            </td>
+                            <td>
+                                <input class="form-control" name="dantoctd1" value="@Model.DANTOCTD1" placeholder="Dân tộc" required>
+                            </td>
+                            <td>
+                                <input class="form-control" name="quoctichtd1" value="@Model.QUOCTICHTD1" placeholder="Quốc tịch" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.CMNDTD1" name="cmndtd1" placeholder="CMND" required>
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" value="@Model.QUANHETD1" name="quanhetd1" placeholder="Quan hệ" required>
+                            </td>
+                        </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.HOTENTD2" name="hotentd2" placeholder="Họ và tên" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGAYSINHTD2" name="ngaysinhtd2" placeholder="ngày,tháng,năm sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.GIOITINHTD2" name="gioitinhtd2" placeholder="Giới tính" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NOISINHTD2" name="noisinhtd2" placeholder="Nơi sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGHENGHIEPTD2" name="nghenghieptd2" placeholder="Nghề nghiệp" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.DANTOCTD2" name="dantoctd2" placeholder="Dân tộc" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.QUOCTICHTD2" name="quoctichtd2" placeholder="Quốc tịch" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.CMNDTD2" name="cmndtd2" placeholder="CMND" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.QUANHETD2" name="quanhetd2" placeholder="Quan hệ" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.HOTENTD3" name="hotentd3" placeholder="Họ và tên" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGAYSINHTD3" name="ngaysinhtd3" placeholder="ngày,tháng,năm sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.GIOITINHTD3" name="gioitinhtd3" placeholder="Giới tính" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NOISINHTD3" name="noisinhtd3" placeholder="Nơi sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGHENGHIEPTD3" name="nghenghieptd3" placeholder="Nghề nghiệp" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.DANTOCTD3" name="dantoctd3" placeholder="Dân tộc" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.QUOCTICHTD3" name="quoctichtd3" placeholder="Quốc tịch" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.CMNDTD3" name="cmndtd3" placeholder="CMND" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.QUANHETD3" name="quanhetd3" placeholder="Quan hệ" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.HOTENTD4" name="hotentd4" placeholder="Họ và tên" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGAYSINHTD4" name="ngaysinhtd4" placeholder="ngày,tháng,năm sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.GIOITINHTD4" name="gioitinhtd4" placeholder="Giới tính" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NOISINHTD4" name="noisinhtd4" placeholder="Nơi sinh" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.NGHENGHIEPTD4" name="nghenghieptd4" placeholder="Nghề nghiệp" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.DANTOCTD4" name="dantoctd4" placeholder="Dân tộc" />
+                        </td>
+                        <td>
+                            <input class="form-control" value="@Model.QUOCTICHTD4" name="quoctichtd4" placeholder="Quốc tịch" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.CMNDTD4" name="cmndtd4" placeholder="CMND" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" value="@Model.QUANHETD4" name="quanhetd4" placeholder="Quan hệ" />
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember" required>
+                            <p style="color: black">Tôi cam đoan những lời khai trên đây là đúng sự thật và chịu trách nhiệm trước pháp luật về cam đoan của mình.</p>
+                            <div class="valid-feedback">Hợp lệ.</div>
+                            <div class="invalid-feedback">Nhấn vào đồng đý đăng ký để tiếp tục.</div>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8" style="text-align: center">
+                    <div class="form-group form-check">
+                        <button id="button" type="submit" class="btn btn-primary" style="font-size: large">Đăng ký</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</form>
+<script>
+    // Disable form submissions if there are invalid fields
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+    //var a = document.getElementById('sel');
+    //if(a.selectedIndex==0)
+    //{
+    //    event.stopPropagation();
+    //    event.preventDefault();
+    //}
+</script>

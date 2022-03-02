@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "ChiTietPhong";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+
+@using DOANTOTNGHIEP.Models
+@model List<ThietBi>
+<br />
+<br />
+<br />
+<h2 style="text-align: center">DANH SÁCH THIẾT BỊ TRONG PHÒNG</h2>
+<br />
+<br />
+<div class="container-fluid">
+    <p class="item-group"></p>
+    <div class="row text-center">
+        @foreach (var a in Model)
+        {
+                
+            <div class="col-md-4 border-gray bg-light" style="border-radius: 20px 20px; border-color: white; background-color: none">
+                <h4 class="gia" style="color: white; background-color: #4e85db">@a.TENTB</h4>
+                <br />
+                <p>@a.SOLUONG</p>
+                <br />
+                <br />
+            </div>
+            <hr />
+        }
+    </div>
+</div>

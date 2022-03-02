@@ -1,0 +1,14 @@
+﻿@using DOANTOTNGHIEP.Models
+@model List<ThongBao>
+
+@foreach (var a in Model)
+{
+    <a class="dropdown-item d-flex align-items-center" href="@Url.Action("ChiTietThongBao", "Home", new { id = @a.MA})">
+        <div class="mr-3">
+        </div>
+        <div>
+            <div class="small text-gray-500">@a.NGAYDANG</div>
+            <span class="font-weight-bold">@a.TENTIEUDE</span>
+        </div>
+    </a>
+}

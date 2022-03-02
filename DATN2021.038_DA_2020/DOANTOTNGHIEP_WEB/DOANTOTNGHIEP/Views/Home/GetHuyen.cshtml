@@ -1,0 +1,10 @@
+﻿
+@model DOANTOTNGHIEP.Models.District
+
+@if(ViewBag.HUYEN !=null)
+{
+    foreach(var item in ViewBag.HUYEN)
+    {
+        <option value="@item.Value">@item.Text</option>
+    }
+}

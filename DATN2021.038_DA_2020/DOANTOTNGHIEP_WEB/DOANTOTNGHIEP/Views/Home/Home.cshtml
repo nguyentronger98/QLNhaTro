@@ -1,0 +1,149 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@using DOANTOTNGHIEP.Models;
+@model hopdong
+
+<div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+        <h1 style="text-align: center">THÔNG TIN HỢP ĐỒNG</h1>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+<br />
+<br />
+<div style="border:medium; padding:inherit ">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>MÃ HỢP ĐỒNG:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.MAHD</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>HỌ VÀ TÊN:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.HOTENNT</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>NGÀY SINH:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.NGAYSINHNT.ToShortDateString()</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>NƠI ĐĂNG KÝ HỘ KHẨU:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.NOIDKHK</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>SỐ ĐIỆN THOẠI:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.SDTNT</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>ĐỊA CHỈ THUÊ:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.DIACHITHUE</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>GIÁ THUÊ:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@String.Format("{0:0,0}", @Model.GIATHUE) VNĐ/THÁNG</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>TIỀN CỌC:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@String.Format("{0:0,0}", @Model.TIENCOC) VNĐ</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>TIỀN ĐIỆN:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@String.Format("{0:0,0}", @Model.TIENDIEN) VNĐ/KW</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>TIỀN NƯỚC:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@String.Format("{0:0,0}", @Model.TIENNUOC) VNĐ/NGƯỜI</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>SỐ NGƯỜI Ở:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.SONGUOIO</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>NGÀY BẮT ĐẦU HỢP ĐỒNG:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.NGAYBATDAU.ToShortDateString()</h4>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <h4>NGÀY KẾT THÚC HỢP ĐỒNG:</h4>
+        </div>
+        <div class="col-md-8">
+            <h4>@Model.NGAYKETTHUC.ToShortDateString()</h4>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-2">
+            <a href="@Url.Action("ChiTietPhong")" class="btn btn-primary" >Xem Chi Tiết</a>
+        </div>
+        <div class="col-md-5">
+        </div>
+    </div>
+    <br />
+    <br />
+
+</div>

@@ -1,0 +1,643 @@
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe.config
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.pdb
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraLayout.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraLayout.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraLayout.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraLayout.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Properties.Resources.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.XtraForm1.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.GenerateResource.Cache
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe.licenses
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.pdb
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v18.1.Core.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v18.1.Core.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Images.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v18.1.Core.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v18.1.Core.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraGrid.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraGrid.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraGrid.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraGrid.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraPrinting.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.RichEdit.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraTreeList.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Office.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Office.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Office.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Office.v18.1.Core.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKBNK.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLongin.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmOTP.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.pdb
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraNavBar.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frrmMain.resources
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v18.1.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v18.1.xml
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraRichEdit.v18.1.resources.dll
+D:\ĐỒ ÁN\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Main.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe.config
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSPhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKBNK.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLongin.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmMain.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Properties.Resources.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCPhongTro.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.GenerateResource.Cache
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe.licenses
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.dll
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.pdb
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLapHopDongThuePhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongTinPhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCNguoi.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportKhaiBaoNhanKhau.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKhaiBaoNhanKhau.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhuVuc.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLPhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThietBi.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThemThietBi.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportThayDoiNhanKhau.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThayDoiNhanKhau.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDatCoc.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietKhachTro.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongKe.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChuyenPhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongSapHetHan.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmTraPhong.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSKhachDaRoiTro.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChonPhongO.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCTKhachRoiKhoi.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCDV.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThongBao.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLQuyDinh.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCamKet.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportCamKet.resources
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\RdlCompile.cache
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\RdlCompile.compiled
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csprojResolveAssemblyReference.cache
+C:\Users\Dilp\Desktop\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDKTamTru.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe.config
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCamKet.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietKhachTro.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChonPhongO.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChuyenPhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCTKhachRoiKhoi.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDatCoc.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongSapHetHan.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSKhachDaRoiTro.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSPhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKBNK.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKhaiBaoNhanKhau.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLapHopDongThuePhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmMain.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhuVuc.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLPhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLQuyDinh.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThietBi.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThongBao.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportCamKet.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDKTamTru.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportKhaiBaoNhanKhau.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportThayDoiNhanKhau.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThayDoiNhanKhau.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThemThietBi.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongKe.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongTinPhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmTraPhong.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Properties.Resources.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCDV.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCNguoi.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCPhongTro.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.GenerateResource.Cache
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe.licenses
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.pdb
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhachTro.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongDaKetThuc.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDatCoc.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDangNhap.resources
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Images.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.CoreCompileInputs.cache
+C:\Users\Trong\Desktop\DOWNLOAD\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.CopyComplete
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe.config
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.pdb
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.pdb
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Extensions.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Formatting.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Primitives.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Newtonsoft.Json.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DLL_BLL.pdb
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCamKet.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietKhachTro.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChonPhongO.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChuyenPhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCTKhachRoiKhoi.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDangNhap.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDatCoc.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongDaKetThuc.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongSapHetHan.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSKhachDaRoiTro.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSPhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKBNK.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKhaiBaoNhanKhau.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLapHopDongThuePhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmMain.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhachTro.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhuVuc.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLPhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLQuyDinh.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThietBi.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThongBao.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportCamKet.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDatCoc.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDKTamTru.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportKhaiBaoNhanKhau.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportThayDoiNhanKhau.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThayDoiNhanKhau.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThemThietBi.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongKe.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongTinPhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmTraPhong.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Properties.Resources.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCDV.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCNguoi.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCPhongTro.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.GenerateResource.Cache
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe.licenses
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongBaoSuCo.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietSuCo.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDoiMatKhau.resources
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Images.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\MySql.Data.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Google.Protobuf.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Zstandard.Net.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\BouncyCastle.Crypto.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Ubiety.Dns.Core.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Renci.SshNet.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Buffers.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\K4os.Compression.LZ4.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\K4os.Hash.xxHash.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\MySql.Data.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraGrid.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraGrid.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraGrid.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraGrid.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraNavBar.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraRichEdit.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.WebRequest.dll
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.WebRequest.xml
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csprojResolveAssemblyReference.cache
+D:\DOANTOTNGHIEP\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.DOAN_TOTNGHIEP.exe.config
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe.config
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Images.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Office.v20.2.Core.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Core.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Printing.v20.2.Core.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.RichEdit.v20.2.Core.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Data.Desktop.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Utils.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraBars.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraEditors.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraGrid.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraLayout.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraNavBar.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraPrinting.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraRichEdit.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.XtraTreeList.v20.2.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Pdf.v20.2.Drawing.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\DevExpress.Sparkline.v20.2.Core.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Data.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Printing.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.RichEdit.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Utils.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraBars.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraEditors.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraGrid.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraLayout.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraNavBar.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraPrinting.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraRichEdit.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.XtraTreeList.v20.2.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\de\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\es\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ja\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\ru\DevExpress.Sparkline.v20.2.Core.resources.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCamKet.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietKhachTro.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChiTietSuCo.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChonPhongO.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmChuyenPhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmCTKhachRoiKhoi.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDangNhap.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDatCoc.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDoiMatKhau.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongDaKetThuc.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSHopDongSapHetHan.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSKhachDaRoiTro.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmDSPhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKBNK.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmKhaiBaoNhanKhau.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmLapHopDongThuePhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmMain.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhachTro.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLKhuVuc.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLPhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLQuyDinh.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThietBi.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmQLThongBao.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportCamKet.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDatCoc.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportDKTamTru.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportKhaiBaoNhanKhau.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmReportThayDoiNhanKhau.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThayDoiNhanKhau.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThemThietBi.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongBaoSuCo.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongKe.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmThongTinPhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.frmTraPhong.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.Properties.Resources.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCDV.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCNguoi.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.UCPhongTro.resources
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csproj.GenerateResource.cache
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe.licenses
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.exe
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.pdb
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\obj\Debug\DOAN_TOTNGHIEP.csprojResolveAssemblyReference.cache
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.xml
+C:\Users\Trong\Desktop\DATN2021.038_DA_2020\DOAN_TOTNGHIEP\DOAN_TOTNGHIEP\bin\Debug\System.Net.Http.WebRequest.xml

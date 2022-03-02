@@ -1,0 +1,9 @@
+﻿@model DOANTOTNGHIEP.Models.Ward
+
+@if (ViewBag.XA != null)
+{
+    foreach (var item in ViewBag.XA)
+    {
+        <option value="@item.Value">@item.Text</option>
+    }
+}

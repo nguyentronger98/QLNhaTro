@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_LayoutPage_Login.cshtml";
+}
+
+<div class="login">
+    <div class="login-wrap">
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-lg-6 login-ID-Pass d-flex flex-column">
+                <h1 style="font: bold; text-align: center">ĐĂNG NHẬP HỆ THỐNG</h1>
+                <br />
+                <br />
+                <div class="container body-content">
+                    <div class="login-frame">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <form action="@Url.Action("DangNhap")" class="needs-validation" novalidate method="post">
+                                        @Html.AntiForgeryToken()
+                                        <div class="form-group" style="text-align: -webkit-center">
+                                            <input class="form-control" placeholder="Tên đăng nhập" type="text" name="uname" id="uname" />
+                                            @*@Html.TextBoxFor( new { @class = "form-control", maxlength = 15, placeholder = "Tên đăng nhập" })*@
+                                            <small class="form-text text-danger"><span for="Username"></span></small>
+                                        </div>
+                                        <div class="form-group" style="text-align: -webkit-center">
+                                            <input class="form-control" placeholder="Mật khẩu" type="password" id="pswd" name="pswd" />
+                                            @*@Html.TextBoxFor(x => x.Password, new { @class = "form-control", maxlength = 15, type = "password", placeholder = "Mật khẩu" })*@
+                                            <small class="form-text text-danger"><span for="Password"></span></small>
+                                        </div>
+                                        <br />
+                                        <p style="color: red; text-align: center">@ViewBag.Thongbao</p>
+                                        <div class="form-group text-center">
+                                            <button class="btn btn-secondary text-uppercase" id="btnSaveLogin" type="submit"><strong>Đăng nhập</strong></button>
+                                        </div>
+                                    </form>
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="co-md-3"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#loginForm").validate({
+        ignore: '',
+        rules: {
+            "Username": {
+                required: true
+            },
+            "Password": {
+                required: true
+            }
+        },
+        messages:
+        {
+            "Username": {
+                required: "Username không được để trống"
+            },
+            "Password": {
+                required: "Password không được để trống"
+            }
+        },
+        errorPlacement: function (error) {
+            var htmlFor = error[0].htmlFor;
+
+            $('span[for="' + htmlFor + '"]').each(function () {
+                $(this).append(error);
+            });
+        },
+        success: function (error) {
+            error.remove();
+        }
+    });
+
+    $("#loginForm").on("submit",
+        function () {
+            if ($("#loginForm").valid()) {
+                $.ajax({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: '@Url.Action("DangNhhap", "Home")',
+                        data: $("#loginForm").serialize(),
+                        success: function (response) {
+                            if (response.result == true) {
+                                toastr.success(response.message, '', { timeOut: 2000 });
+                                window.location.href = '@Url.Action("Home", "Home")';
+                            } else {
+                                toastr.error(response.message, '', { timeOut: 2000 });
+                            }
+                        },
+                        error: function () {
+                            alert('error');
+                        }
+                    });
+                }
+                return false;
+            }
+        );
+</script>

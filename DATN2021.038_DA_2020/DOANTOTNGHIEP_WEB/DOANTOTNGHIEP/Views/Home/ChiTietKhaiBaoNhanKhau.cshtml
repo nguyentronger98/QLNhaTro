@@ -1,0 +1,450 @@
+﻿@{
+    ViewBag.Title = "ChiTietKhaiBaoNhanKhau";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using DOANTOTNGHIEP.Models
+@model khaibaonhankhau
+
+<div class="row" style="padding: 15px">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+        <br />
+        <br />
+        <br />
+        <h1 style="text-align: center">KHAI BÁO NHÂN KHẨU</h1>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <div class="form-group">
+                    <img class="item-image" src="../Hinh/@Model.HINHTHE" height="300px" width="200px" class="form-control" />
+                    @ViewBag.ThongBao
+                </div>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>CMND(mặt trước) <em>(*)</em></h5>
+            </div>
+            <div class="col-md-9">
+                <div class="form-group">
+                    <img class="item-image" src="../Hinh/@Model.HINHCMNDTRUOC" height="200px" width="300px" class="form-control" />
+                    @ViewBag.ThongBao
+                </div>
+            </div>
+            @*<input class="btn btn-primary" name="file" id="file" type='file' onchange="readURL(this)" />
+                        <img id="blah" src="../Hinh/image_50px.png" alt="your image" />*@
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>CMND(mặt sau) <em>(*)</em></h5>
+            </div>
+            <div class="col-md-9">
+                <div class="form-group">
+                    <img class="item-image" src="../Hinh/@Model.HINHCMNDSAU" height="200px" width="300px" class="form-control" />
+                </div>
+            </div>
+            @*<input class="btn btn-primary" name="file" id="file" type='file' onchange="readURL(this)" />
+                        <img id="blah" src="../Hinh/image_50px.png" alt="your image" />*@
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>1. Họ và tên (ghi chữ IN HOA) <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.HOTEN</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>2. Họ và tên gọi khác (nếu có): </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.HOTENKHAC</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>3. Ngày, tháng, năm sinh <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-5">
+                <h4>@Model.NGAYSINH</h4>
+            </div>
+            <div class="col-md-2">
+                <h5>4. Giới tính <em style="color: red">(*)</em></h5>
+            </div>
+            <div class="col-md-2">
+                <h4>@Model.GIOITINH</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>5. Nơi sinh <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.NOISINH</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>6. Nguyên quán <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.NGUYENQUAN</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>7. Dân tộc <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-2">
+                <h4>@Model.DANTOC</h4>
+            </div>
+            <div class="col-md-2">
+                <h5>8. Tôn giáo <em style="color: red">(*)</em></h5>
+            </div>
+            <div class="col-md-2">
+                <h4>@Model.TONGIAO</h4>
+            </div>
+            <div class="col-md-1">
+                <h5>9. Quốc tịch <em style="color: red">(*)</em></h5>
+            </div>
+            <div class="col-md-2">
+                <h4>@Model.QUOCTICH</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>10. CMND số <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-5">
+                <h4>@Model.CMNDSO</h4>
+            </div>
+            <div class="col-md-2">
+                <h5>11. Hộ chiếu số:</h5>
+            </div>
+            <div class="col-md-2">
+                <h4>@Model.HOCHIEUSO</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>12. Nơi thường trú <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.NOITHUONGTRU</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>13. Địa chỉ chỗ ở hiện nay <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.DIACHIHIENTAI</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>14. Trình độ học vấn: </h5>
+            </div>
+            <div class="col-md-3">
+                <h4>@Model.HOCVAN</h4>
+            </div>
+            <div class="col-md-3">
+                <h5>15. Trình độ chuyên môn:</h5>
+            </div>
+            <div class="col-md-3">
+                <h4>@Model.CHUYENMON</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>16. Biết tiếng dân tộc: </h5>
+            </div>
+            <div class="col-md-3">
+                <h4>@Model.TIENGDANTOC</h4>
+            </div>
+            <div class="col-md-3">
+                <h5>17. Trình độ ngoại ngữ:</h5>
+            </div>
+            <div class="col-md-3">
+                <h4>@Model.NGOAINGU</h4>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <h5>18. Nghề nghiệp, nơi làm việc <em style="color: red">(*)</em> </h5>
+            </div>
+            <div class="col-md-9">
+                <h4>@Model.NGHENGHIEPNOILAMVIEC</h4>
+            </div>
+        </div>
+        <br />
+        <h5>19. Tóm tắt về bản thân (Từ đủ 14 tuổi trở lên đến nay ở đâu, làm gì):</h5>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Từ tháng năm đến tháng năm</th>
+                    <th scope="col">Chỗ ở (Ghi rõ số nhà, đường phố, thôn, xóm, làng, ấp, bản, buôn, phum, sóc; xã/phường/trị trấn; quận/huyện; tỉnh/thành phốn (Nếu ở nước ngoài ghi rõ tên nước)</th>
+                    <th scope="col">Nghề nghiệp, nơi làm việc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <h4>@Model.NGAYDENNGAY1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHI1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NNNLV1</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        <h4>@Model.NGAYDENNGAY2</h4>
+
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHI2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NNNLV2</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        <h4>@Model.NGAYDENNGAY3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHI3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NNNLV3</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>
+                        <h4>@Model.NGAYDENNGAY4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHI4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NNNLV4</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>
+                        <h4>@Model.NGAYDENNGAY5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHI5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NNNLV5</h4>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <h5>20. Tiền án (Tội danh, hình phạt, theo bản án số, ngày, tháng, năm của Tòa án): </h5>
+            </div>
+            <div class="col-md-8">
+                <h4>@Model.TIENAN</h4>
+            </div>
+        </div>
+        <br />
+        <h5>21. Tóm tắt về gia đình (Bố, mẹ; vợ/chồng; con; anh, chị, em ruột):</h5>
+        <br />
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th>TT</th>
+                    <th>Họ Tên</th>
+                    <th>Ngày, tháng, năm sinh</th>
+                    <th>Giới tính</th>
+                    <th>Quan hệ</th>
+                    <th>Nghề nghiệp</th>
+                    <th>Địa chỉ chỗ ở hiện nay</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <h4>@Model.HOTENGD1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD1</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD1</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        <h4>@Model.HOTENGD2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD2</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD2</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>
+                        <h4>@Model.HOTENGD3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD3</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD3</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>
+                        <h4>@Model.HOTENGD4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD4</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD4</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>
+                        <h4>@Model.HOTENGD5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD5</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD5</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>
+                        <h4>@Model.HOTENGD6</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGAYSINHGD6</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.GIOITINHGD6</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.QUANHEGD6</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.NGHENGHIEPGD6</h4>
+                    </td>
+                    <td>
+                        <h4>@Model.DIACHIGD6</h4>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8" style="text-align: center">
+                <div class="form-group form-check">
+                    <a class="btn btn-warning" href="@Url.Action("DSKhaiBaoNhanKhau","Home")">Trở về</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+    </div>
+    <div class="col-md-1">
+    </div>
+</div>

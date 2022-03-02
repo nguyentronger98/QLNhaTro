@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "QuyDinh";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using DOANTOTNGHIEP.Models
+@model List<QuyDinh>
+
+<h1 style="text-align: center">NỘI QUY</h1>
+<br />
+<hr />
+<div style="padding: 16px">
+    @for (int count = 1; count <= 1; count++)
+    {
+        int stt = 1;
+        foreach (var a in Model)
+        {
+        <h5>@stt . @a.NOIDUNG</h5>
+        <br />
+            stt++;
+        }
+    }
+</div>
